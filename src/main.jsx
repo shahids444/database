@@ -10,11 +10,11 @@ import FormDataDisplay from './formDataDisplay.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <FormDataDisplay/>,
+    element: <App/>,
   },
   {
     path: "/admin",
-    element: <App/>,
+    element: <FormDataDisplay/>,
   },
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
